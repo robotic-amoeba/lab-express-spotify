@@ -4,8 +4,8 @@ const hbs = require('hbs');
 const app = express();
 
 // Remember to paste here your credentials
-const clientId = 'cd668287e7bb4d12b4d784a58186b465',
-  clientSecret = '168fcfcd6af54b08b872fb28dbe88c53';
+const clientId = '',
+  clientSecret = '';
 
 let spotifyApi = new SpotifyWebApi({
   clientId: clientId,
